@@ -1,0 +1,41 @@
+{
+  "name": "reactportfolio",
+  "version": "1.0.0",
+  "description": "A single page application, portfolio. Philemon AbdEllah Kirlles ",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "dev": "npm run dev",
+    "client": "npm run start",
+    "seed": "node scripts/projectsSeed.js",
+    "install": "npm install",
+    "build": "npm run build",
+    "heroku-postbuild": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilemonKirlles/Portfolio-PAK.git"
+  },
+  "keywords": [
+    "MERN",
+    "mongoDB",
+    "mongoose",
+    "Express",
+    "Node",
+    "js",
+    "react-bootstrap",
+    "portfolio",
+    "developer",
+    "projects"
+  ],
+  "author": "Philemon A Kirlles (pK37)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/PhilemonKirlles/Portfolio-PAK/issues"
+  },
+  "homepage": "https://github.com/PhilemonKirlles/Portfolio-PAK#readme",
+  "dependencies": {
+    "mongodb": "^4.8.1"
+  }
+}
