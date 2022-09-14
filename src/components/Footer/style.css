@@ -55,7 +55,7 @@
 
  .footLink:hover {
     text-shadow: none;
-    color: whitesmoke;
+    color: palegoldenrod;
  }
 
  @media screen and (max-width: 392px) {

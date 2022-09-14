@@ -1,10 +1,9 @@
 import React from "react";
-import coverImage from "../../assets/photos/FacePic.png";
+import coverImage from "../../assets/photos/profile-pic.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import Video3 from "../../assets/videos/LightningHeader.mp4";
 
 const About = () => {
   return (
@@ -16,9 +15,7 @@ const About = () => {
         <Col className="AboutCard">
           <Card className="AboutCrd">
             <Card.Header className="cardHeader" as="h5">
-              <video autoPlay loop muted id="video" className="headerVid">
-                <source src={Video3} type="video/mp4" />
-              </video>
+              
               <div className="cardTitle">Philemon AbdEllah Kirlles</div>
             </Card.Header>
 
