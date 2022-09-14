@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Nav from "react-bootstrap/Nav";
 import './style.css'
 
-function PageFooter() {
+function Footer() {
     return (
         <footer className="Footer">
       <Row>
@@ -18,5 +18,5 @@ function PageFooter() {
         </footer>
  )
 }
-export default PageFooter;
+export default Footer;
 
