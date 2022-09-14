@@ -3,10 +3,8 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 
-import Header from "react-bootstrap/ from "../../../assets/photos/NicePng_grid-background-png_1014345.png";
 
 
-import { Button } from "../../ButtonElement";
 function ProjectCard({ img, title, description, line, alt, website, repo }) {
 
 
@@ -17,10 +15,7 @@ function ProjectCard({ img, title, description, line, alt, website, repo }) {
         style={{ width: "27rem", height: "34rem" }}
       >
         <Card.Header className="cardHeader">
-          <video autoPlay loop muted id="video" className="headerVid">
-            <source src={Video2} type="video/mp4" />
-          </video>
-          <div className="cardTitle">{title}</div>
+        
         </Card.Header>
 
         <Card.Img src={img} alt={alt} />

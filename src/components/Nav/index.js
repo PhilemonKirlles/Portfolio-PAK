@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
+import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap";
 import "./style.css";
 
 function TopNav({ activeTab, changeActiveTab }) {
+
+  
 useEffect(() => {
   document.title = (activeTab);
 });
@@ -17,7 +19,7 @@ useEffect(() => {
           onClick={() => changeActiveTab("About")}
           href="#about"
         >
-          Portfolio
+          My Portfolio
         </Navbar.Brand>
         <Navbar.Toggle
           className="navToggle navBtn"
@@ -37,14 +39,14 @@ useEffect(() => {
               href="#projects"
               className={activeTab === "Projects" ? "active-tab" : "not-active"}
             >
-              Projects
+              My Projects
             </Nav.Link>
             <Nav.Link
               onClick={() => changeActiveTab("Contact")}
               href="#contact"
               className={activeTab === "Contact" ? "active-tab" : "not-active"}
             >
-              Contact 
+              Contact Me
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

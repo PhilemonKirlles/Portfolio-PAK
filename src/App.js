@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState } from "react";
 import './App.css';
 
 import "../src/assets/index.css";
@@ -9,9 +9,7 @@ import TopNav from "./components/Nav";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
-import Projects from "./components/Projects";
-
-// import logo from './logo.svg';
+// import Projects from "./components/Projects";
 
 import './App.css';
 
@@ -20,7 +18,7 @@ function App() {
 
   const currentPage = () => {
     if (activeTab === "About") return <About />;
-    if (activeTab === "Projects") return <Projects />;
+    // if (activeTab === "Projects") return <Projects />;
     if (activeTab === "Contact") return <Contact />;
   };
   const changeActiveTab = (tab) => setActiveTab(tab);
