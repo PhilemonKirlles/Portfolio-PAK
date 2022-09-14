@@ -1,8 +1,10 @@
+
 import React from "react";
 import coverImage from "../../assets/photos/profile-pic.png";
+import Col from "react-bootstrap/Col";
+import HeaderImage from "../../assets/photos/NicePng_grid-background-png_1014345.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
 const About = () => {
@@ -15,8 +17,7 @@ const About = () => {
         <Col className="AboutCard">
           <Card className="AboutCrd">
             <Card.Header className="cardHeader" as="h5">
-              
-              <div className="cardTitle">Philemon AbdEllah Kirlles</div>
+              <Image className="cardHeader">Philemon</Image>
             </Card.Header>
 
             <Card.Img variant="bottom" src={coverImage} alt="cover" />

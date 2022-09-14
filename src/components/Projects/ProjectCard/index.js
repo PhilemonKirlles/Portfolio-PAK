@@ -3,19 +3,10 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 
-import Video2 from "../../../assets/videos/LightningHeader.mp4";
+import Header from "react-bootstrap/ from "../../../assets/photos/NicePng_grid-background-png_1014345.png";
 
-// import {
-//   ImageWrapper,
-//   DescriptionWrapper,
-//   HeaderSection,
-//   MainTitle,
-//   SubTitle,
-//   Content,
-//   Image,
-//   ButtonWrapper,
-// } from "./CardElements";
-// import { Button } from "../../ButtonElement";
+
+import { Button } from "../../ButtonElement";
 function ProjectCard({ img, title, description, line, alt, website, repo }) {
 
 
