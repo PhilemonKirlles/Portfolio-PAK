@@ -2,10 +2,10 @@ import axios from 'axios'
 
 export default {
   getContacts: function () {
-    return axios.get("/api/contacts")
+    return axios.get("/api/contact")
   },
 
   contactForm: function (data) {
-    return axios.post("/api/contacts", data)
+    return axios.post("/api/contact", data)
   }
 }

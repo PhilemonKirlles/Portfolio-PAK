@@ -8,7 +8,7 @@
     "start": "node server.js",
     "dev": "npm run dev",
     "client": "npm run start",
-    "seed": "node scripts/projectsSeed.js",
+    "seed": "node seeds/seed.js",
     "install": "npm install",
     "build": "npm run build",
     "heroku-postbuild": ""
@@ -36,6 +36,14 @@
   },
   "homepage": "https://github.com/PhilemonKirlles/Portfolio-PAK#readme",
   "dependencies": {
-    "mongodb": "^4.8.1"
+    "dotenv": "^16.0.1",
+    "eslint": "^8.22.0",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19",
+    "particles.js": "^2.0.0",
+    "react-bootstrap": "^2.5.0",
+    "react-particles": "^2.2.1"
   }
 }
