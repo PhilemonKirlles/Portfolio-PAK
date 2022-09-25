@@ -2,13 +2,13 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://philemonkirlles.github.io/Portfolio-PAK",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.1",
     "bootstrap-component": "^1.2.0",
-    "gh-pages": "^2.2.0",
     "jquery": "^3.6.1",
     "lightbox2": "^2.11.3",
     "popper": "^1.0.1",
@@ -46,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
